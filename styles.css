@@ -1,0 +1,77 @@
+body {
+    background-color: #F2E3BB;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#whole_box {
+    background-color: #FFFDF1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+#main_box, .child_box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#main_box {
+    border: 2px dashed #FF9644;
+}
+
+#main_input,
+.child_input,
+#main_select,
+.child_select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-family: inherit;
+    min-width: 120px;
+}
+
+#main_select,
+.child_select {
+    cursor: pointer;
+}
+
+#main_btn {
+    display: block;
+    margin: 25px auto;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.currency_option {
+    font-family: inherit;
+}
